@@ -1,0 +1,8 @@
+import random
+suma=0
+m=random.randint(1,6)
+n=random.randint(1,6)
+while m!=n:
+    m=random.randint(1,6)
+    n=random.randint(1,6)
+print("Suma dublei este",m+n)
