@@ -1,0 +1,13 @@
+from random import randint
+n=int(input("Dati numarul de numere:"))    
+Spoz=0
+Sneg=0
+for i in range(n):
+    i=randint(-50,50)
+    print(i)
+    if i>0:
+        Spoz+=i
+    if i<0:
+        Sneg+=i
+print("Suma numerelor pozitive este:", Spoz)
+print("Suma numerelor negative este:", Sneg)
