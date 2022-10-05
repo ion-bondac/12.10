@@ -1,0 +1,11 @@
+from random import randint
+n=int(input("Dati numarul de aruncari:"))
+afis=0
+for i in range(n):
+    i=randint(1,6)
+    print(i)
+    if i==6:
+        afis+=1
+    else:
+        afis+=0
+print("Numarul de afisari 6 este:", afis)
