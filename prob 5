@@ -1,0 +1,11 @@
+from random import randint
+k=[]
+suma=0
+n=int(input("dati un numar mai mic ca 100:"))
+if n>0 and n<101:
+    for i in range(n):
+        k.extend([randint(-999,999)])
+print(k)
+for j in k:
+    suma+=j
+print("Suma numerelor mai mici ca nr. max este:",suma-max(k))
